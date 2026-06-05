@@ -1,0 +1,29 @@
+{
+  "platform": "skills-sh",
+  "environment": "production",
+  "name": "bestcoffer-ai-redaction",
+  "version": "1.0.0",
+  "runtime": {
+    "type": "node",
+    "nodeVersion": ">=18.0.0",
+    "entrypoints": [
+      "scripts/run.sh",
+      "scripts/run.cmd"
+    ]
+  },
+  "secrets": [
+    "apiKey"
+  ],
+  "network": [
+    "https://openapi4ai.bestcoffer.com.cn/",
+    "https://airedact_sr.bestcoffer.com.cn/"
+  ],
+  "files": [
+    "SKILL.md",
+    "dist/index.js",
+    "dist/index.d.ts",
+    "scripts/run.sh",
+    "scripts/run.cmd"
+  ],
+  "publishHint": "Publish by committing the generated skills/<skill-name>/ directory to a GitHub/GitLab repository, then verify discovery with `npx skills add owner/repo --list` or a local path before sharing the skills.sh install command."
+}
