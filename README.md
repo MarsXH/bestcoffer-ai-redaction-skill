@@ -2,3 +2,9 @@
 
 
 [![skills.sh](https://skills.sh/b/MarsXH/bestcoffer-ai-redaction-skill)](https://skills.sh/MarsXH/bestcoffer-ai-redaction-skill)
+
+
+Install:
+
+```bash
+npx skills add MarsXH/bestcoffer-ai-redaction-skill --skill bestcoffer-ai-redaction
